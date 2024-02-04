@@ -106,7 +106,7 @@ const mostrarProductos = (listaproductos) => {
     card.className = "card col-4 g-4 text-center";
     card.style.width = "18rem";
     card.innerHTML = `
-      <img src="../Assets/img/tienda/${producto.imagen}" class="card-img-top mt-2">
+      <img src="${producto.imagen}" class="card-img-top mt-2">
       <div class="card-body">
         <h5 class="card-title fs-4">${producto.nombre}</h5>
         <p class="card-text fs-5">${producto.descripcion}</p>
